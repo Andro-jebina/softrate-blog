@@ -1,0 +1,12 @@
+{
+  "name": "softrate-blog",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "npm install --include=dev --prefix client && npm run build --prefix client && npm install --prefix server",
+    "start": "node server/server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
